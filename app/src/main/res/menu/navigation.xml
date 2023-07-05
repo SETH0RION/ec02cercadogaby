@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/icon_camera"
+        android:title="@string/toolbar_camera"/>
+
+    <item
+        android:id="@+id/maps"
+        android:icon="@drawable/icon_maps"
+        android:title="@string/toolbar_maps"/>
+
+    <item
+        android:id="@+id/information"
+        android:icon="@drawable/icon_information"
+        android:title="@string/toolbar_information"/>
+</menu>

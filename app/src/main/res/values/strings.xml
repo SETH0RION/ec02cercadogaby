@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FIX</string>
+
+    <!-- TODO: SECTION KEY FOR GOOGLE MAPS  -->
+    <string name="google_api_key5">AIzaSyD_O7Oozjy7OqLP9N0IuplfNhx8_gur3zY</string>
+    <string name="map_button">See the location in map</string>
+
+    <!-- TODO: SECTION CAMERA  -->
+    <string name="camera_button">Take a photo</string>
+
+
+    <!-- TODO: SECTION MENU TOOLBAR  -->
+    <string name="toolbar_camera">Profile</string>
+    <string name="toolbar_maps">Maps</string>
+    <string name="toolbar_information">Information</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_view_map">ViewMap</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Detalles sobre este aplicativo dejado como desarrollo para el curso de desarrollo movil.
+
+        Datos:
+
+        Funcionamiento del aplicativo
+
+        - Vista del mapa: Check
+        - Vista de la camara: Test (toma de foto correcta, visualizar la imagen tomada en el campo Imagen incorrecto, cierre del programa.)
+
+        Nota: verificar todo los demas campos y por ultimo la seccion de la camara.
+
+    </string>
+</resources>

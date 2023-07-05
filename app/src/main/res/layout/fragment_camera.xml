@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraFragment">
+
+    <TextView
+        android:id="@+id/title_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toolbar_camera"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_light"
+        android:layout_marginBottom="25sp"
+        android:layout_marginTop="25sp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/camera_add_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="94dp"
+        android:gravity="center"
+        android:text="@string/camera_button"/>
+
+    <ImageView
+        android:id="@+id/camera_photo"
+        android:layout_width="match_parent"
+        android:layout_height="450sp"
+        android:background="@color/purple_light"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:contentDescription="@null" />
+
+</FrameLayout>
